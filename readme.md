@@ -22,39 +22,49 @@ Após isso, para iniciar a API, basta usar o seguinte comando ainda no terminal:
 
 ### Cadastrar Usuário
 Para cadastrar um usuário, você deve executar a seguinte URL em uma plataforma de API de sua preferencia:
-> Via POST:
-> 127.0.0.1:8000/cadastra_usuario/
-> Passando como parametros via body:
-> nomeUsuario: Nome do Usuario
-> emailUsuario: Email do Usuario
+```
+Via POST:
+127.0.0.1:8000/cadastra_usuario/
+Passando como parametros via body:
+nomeUsuario: Nome do Usuario
+emailUsuario: Email do Usuario
+```
 
 ### Criar Carteira
 Para criar uma carteira:
-> Via POST:
-> 127.0.0.1:8000/cadastra_carteira/
-> Passando como parametros via body:
-> nomeUsuario: Nome do Usuario
+```
+Via POST:
+127.0.0.1:8000/cadastra_carteira/
+Passando como parametros via body:
+nomeUsuario: Nome do Usuario
+```
 
 ### Consultar Usuário
 Para consultar um usuário:
-> Via GET:
-> 127.0.0.1:8000/consulta_usuario/
-> Passando um dos seguintes parametros:
-> nomeUsuario: Nome do Usuario
-> emailUsuario: Email do Usuario
+```
+Via GET:
+127.0.0.1:8000/consulta_usuario/
+Passando um dos seguintes parametros:
+nomeUsuario: Nome do Usuario
+emailUsuario: Email do Usuario
+```
 
 ### Consultar Carteira
 Para consultar uma carteira:
-> Via GET:
-> 127.0.0.1:8000/consulta_carteira/
-> Passando o seguinte parametro:
-> idCarteira: ID da Carteira desejada
+```
+Via GET:
+127.0.0.1:8000/consulta_carteira/
+Passando o seguinte parametro:
+idCarteira: ID da Carteira desejada
+```
 
 ### Registrar Ativo
 Para registrar ativos em uma carteira:
-> Via POST:
-> 127.0.0.1:8000/registra_ativo/
-> Passando os seguintes parametros:
-> idCarteira: ID da Carteira
-> cripto: Nome do ativo a ser registrado
-> valor: Valor do ativo a ser registrado
+```
+Via POST:
+127.0.0.1:8000/registra_ativo/
+Passando os seguintes parametros:
+idCarteira: ID da Carteira
+cripto: Nome do ativo a ser registrado
+valor: Valor do ativo a ser registrado
+```
