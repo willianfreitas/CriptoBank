@@ -78,11 +78,11 @@ WSGI_APPLICATION = 'CriptoBank.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.mysql',
-        'HOST': 'localhost',
+        'HOST': 'HOST',
         'PORT': '3306',
-        'NAME': 'criptobank',
-        'USER': 'root',
-        'PASSWORD': 'Panda@420',
+        'NAME': 'SCHEMA',
+        'USER': 'USUARIO',
+        'PASSWORD': 'SENHA',
     }
 }
 
